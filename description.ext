@@ -1,0 +1,59 @@
+respawn=1;
+disabledAI=1;
+saving=0;
+
+author = "Darren 'Dabbo' Edmonds";
+onLoadName = "Crazy Town MP";
+onLoadMission = "Escape to helo extract!";
+loadScreen = "LoadingImage.jpg";
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 20;
+};
+class Params
+{
+	class BomberSpawnRange
+	{
+		//paramsArray[0]
+		title = "Bomber Spawn Range";
+		values[] = {500,350,275};
+		texts[] = {"500m (Easy)","350m (Medium)","275m (Hard)"};
+		default = 500;
+	};
+	class BomberCount
+	{
+		//paramsArray[1]
+		title = "Bomber Limit";
+		values[] = {20, 40, 60, 80, 100};
+		texts[] = {"20 Units (Easiest)", "40 Units", "60 Units", "80 Units", "100 Units (Hardiest)"};
+		default = 40;
+	};
+	class BomberLifeSpan
+	{
+		//paramsArray[2]
+		title = "Bomber Life Span";
+		values[] = {40, 50, 60, 120};
+		texts[] = {"40secs", "50secs", "1min", "2mins"};
+		default = 120;
+	};
+	class DetonationRange
+	{
+		//paramsArray[3]
+		title = "Bomber Detonation Range";
+		values[] = {3, 4, 5, 6, 7, 8, 9, 10, 11};
+		texts[] = {"3m", "4m", "5m", "6m", "7m", "8m", "9m", "10m", "11m"};
+		default = 9;
+	};
+	class PrepTime
+	{
+		//paramsArray[4]
+		title = "Player Preparation Time";
+		values[] = {25, 40, 60, 90, 120};
+		texts[] = {"25secs", "40secs", "1min", "1min 30secs", "2mins"};
+		default = 40;
+	};
+	
+	
+};

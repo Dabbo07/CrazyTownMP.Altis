@@ -1,0 +1,634 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"a3_map_altis",
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"A3_Soft_F_Car",
+		"A3_Structures_F_Mil_Helipads",
+		"A3_Soft_F_Offroad_01",
+		"A3_Air_F_Beta_Heli_Transport_01",
+		"A3_Weapons_F_Ammoboxes",
+		"A3_Air_F_Heli_Light_01",
+		"A3_Characters_F_Civil",
+		"A3_Characters_F_OPFOR",
+		"A3_Data_F_Curator_Characters"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"A3_Data_F_Curator_Characters",
+		"A3_Soft_F_Car",
+		"A3_Structures_F_Mil_Helipads",
+		"A3_Weapons_F_Ammoboxes",
+		"a3_map_altis"
+	};
+	randomSeed=14678381;
+	class Intel
+	{
+		briefingName="Crazy Town MP";
+		overviewText="Escape Crazy Town by avoiding the suicide bombers en route to extraction!";
+		startWeather=0.29999998;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.29999998;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Groups
+	{
+		items=17;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={3573.5618,12.293957,12858.42};
+					azimut=-129.231;
+					special="NONE";
+					id=0;
+					side="WEST";
+					vehicle="B_officer_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="MAJOR";
+					skill=0.60000002;
+					text="plr02";
+				};
+				class Item1
+				{
+					position[]={3568.0684,12.145938,12861.146};
+					azimut=-198.142;
+					special="NONE";
+					id=1;
+					side="WEST";
+					vehicle="B_officer_F";
+					player="PLAYER COMMANDER";
+					rank="CAPTAIN";
+					skill=0.60000002;
+					text="plr01";
+				};
+				class Item2
+				{
+					position[]={3571.8643,12.186686,12854.631};
+					azimut=-45.527199;
+					special="NONE";
+					id=2;
+					side="WEST";
+					vehicle="B_officer_F";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="plr04";
+				};
+				class Item3
+				{
+					position[]={3566.324,11.992537,12856.703};
+					azimut=69.7519;
+					special="NONE";
+					id=3;
+					side="WEST";
+					vehicle="B_officer_F";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="plr03";
+				};
+			};
+		};
+		class Item1
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4999.3882,15.76,14526.495};
+					azimut=103.65871;
+					id=4;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item2
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5010.6221,15.761236,14535.079};
+					azimut=-179.24533;
+					id=5;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item3
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5015.1475,15.773726,14530.202};
+					azimut=-139.821;
+					id=6;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item4
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5018.8745,15.77134,14524.252};
+					azimut=-93.177803;
+					id=7;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item5
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5014.6152,15.754959,14519.459};
+					azimut=-409.46899;
+					id=8;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item6
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5008.4038,15.688911,14515.557};
+					azimut=8.9638596;
+					id=9;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item7
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5003.5234,15.76,14520.791};
+					azimut=-314.45901;
+					id=10;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item8
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5004.5889,15.76,14531.354};
+					azimut=-221.33099;
+					id=11;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item9
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5008.0488,15.741592,14538.451};
+					azimut=-181.34599;
+					id=12;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item10
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5013.728,15.751051,14538.541};
+					azimut=-179.478;
+					id=13;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item11
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5022.6895,15.777737,14526.65};
+					azimut=-91.189301;
+					id=14;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item12
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5022.0669,15.764238,14521.589};
+					azimut=-86.322998;
+					id=15;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item13
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5010.8896,15.639971,14512.093};
+					azimut=-342.10599;
+					id=16;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5005.0317,15.635163,14513.515};
+					azimut=-696.68298;
+					id=17;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item15
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4996.1577,15.749519,14523.721};
+					azimut=-248.826;
+					id=18;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+		class Item16
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4997.4902,15.76,14530.376};
+					azimut=-239.991;
+					id=19;
+					side="EAST";
+					vehicle="o_g_soldier_unarmed_f";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					description="Suicide Bomber";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=3;
+		class Item0
+		{
+			position[]={4054.0034,21.087805,13720.822};
+			azimut=126.33011;
+			id=20;
+			side="EMPTY";
+			vehicle="C_Hatchback_01_F";
+			skill=0.60000002;
+			text="car";
+		};
+		class Item1
+		{
+			position[]={5009.4492,15.76,14525.282};
+			azimut=142.29103;
+			id=21;
+			side="EMPTY";
+			vehicle="Land_HelipadRescue_F";
+			skill=0.60000002;
+			text="t1";
+		};
+		class Item2
+		{
+			position[]={3571.0188,12.231562,12859.394};
+			azimut=-69.320618;
+			id=22;
+			side="EMPTY";
+			vehicle="Box_IND_AmmoVeh_F";
+			skill=0.60000002;
+			text="crateMP";
+		};
+	};
+	class Markers
+	{
+		items=8;
+		class Item0
+		{
+			position[]={4062.2185,21.045135,13716.065};
+			name="a1";
+			text="Transport";
+			type="mil_warning";
+			colorName="ColorGreen";
+		};
+		class Item1
+		{
+			position[]={4996.7271,15.76,14526.648};
+			name="extractMark";
+			text="Helo Extraction";
+			type="mil_warning";
+			colorName="ColorRed";
+			angle=-0.26681146;
+		};
+		class Item2
+		{
+			position[]={14398.096,17.84,15931.926};
+			name="heloMarker";
+			type="o_air";
+			colorName="ColorGreen";
+		};
+		class Item3
+		{
+			position[]={14423.13,17.860001,15965.636};
+			name="heloSpawn";
+			type="Empty";
+		};
+		class Item4
+		{
+			position[]={3570.5879,18.227692,12856.046};
+			name="spawnHouse";
+			type="Empty";
+		};
+		class Item5
+		{
+			position[]={5524.187,20.934114,14849.747};
+			name="heloWP1";
+			type="Empty";
+		};
+		class Item6
+		{
+			position[]={5009.6514,15.76,14525.13};
+			name="heloWP2";
+			type="Empty";
+		};
+		class Item7
+		{
+			position[]={10114.271,29.858728,13713.946};
+			name="heloWP3";
+			type="Empty";
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3569.8291,12.140864,12856.134};
+			a=10;
+			b=10;
+			activationBy="WEST";
+			interruptable=1;
+			age="UNKNOWN";
+			name="trig1";
+			expActiv="myTrigger=1;";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=10138680;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=4499203;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=13320027;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
